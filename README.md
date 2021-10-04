@@ -10,7 +10,7 @@ The two most common types of recommender systems are Content-Based(CB) and Colla
 Content based: uses item features to recommend ie. other items similar to what the user likes, has seen or given feedback.
 Collaborative: here first the similar users are found and ratings for each user/item is calculated using ratings of similar users. 
 
-For the following project I have created a movie recommender system which is a hybrid of both the above methodology. I have used a movie dataset which contains 1000000 ratings, 600 users, 9000 movies and 3600 tags. The process of system is:
+For the following project I have created a movie recommender system which is a hybrid of both the above methodology. I have used a movie dataset which contains 1000000 ratings, 600 users, 9000 movies and 3600 tags. The process of system is:  
   1)Cleaning of data  
       Removal of symbols like dashes 
       Remove users who haven’t at least rated 55 movies. This helps in  reducing data volume and improving data quality.
